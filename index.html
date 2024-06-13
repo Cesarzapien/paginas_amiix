@@ -11,7 +11,7 @@
             color: #2e8b57;
             text-align: center;
             margin: 0;
-            padding-top: 60px;
+            padding-top: 120px;
         }
         nav {
             background-color: #2e8b57;
@@ -32,45 +32,69 @@
             margin: 10px;
             border: 2px solid #2e8b57;
             border-radius: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1);
         }
         .images-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin-bottom: 50px;
         }
         .images-row {
             display: flex;
             justify-content: center;
             width: 100%;
+            margin-bottom: 20px;
+        }
+        .info {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+        .quote {
+            font-style: italic;
+            color: #808080;
+        }
+        .song {
+            font-weight: bold;
+            color: #2e8b57;
         }
     </style>
 </head>
 <body>
     <nav></nav>
     <h1>Perfil de Abigail Villalobos</h1>
-    <p>Nombre: Abigail Villalobos</p>
-    <p>Fecha de nacimiento: 21 de diciembre</p>
-    <p>Color favorito: Verde</p>
-    <p>Frase favorita: "Una vida para recordar"</p>
-    
+    <div class="info">
+        <p><strong>Nombre:</strong> Abigail Villalobos</p>
+        <p><strong>Fecha de nacimiento:</strong> 21 de diciembre</p>
+        <p><strong>Color favorito:</strong> Verde</p>
+        <p><strong>Frase favorita:</strong> <span class="quote">"Una vida para recordar"</span></p>
+    </div>
+
     <h2>Canción favorita</h2>
-    <p>"Antes de los 20" de Morat</p>
+    <div class="info">
+        <p class="song">"Antes de los 20" de Morat</p>
+    </div>
+
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-8d3bc507-45de-447d-8508-dec3d73f5f99" data-elfsight-app-lazy></div>
     
     <h2>Imágenes favoritas</h2>
     <div class="images-container">
         <div class="images-row">
-            <img src="https://i.ibb.co/CPFdfzG/Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-61c6fdd4.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-61c6fdd4" border="0">
-            <img src="https://i.ibb.co/vXsY4Th/Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-6cc0b26e.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-6cc0b26e" border="0">
-            <img src="https://i.ibb.co/Ks5rzcc/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-21617a2d.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-21617a2d" border="0">
-            <img src="https://i.ibb.co/vq1Qhjq/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-8aa80495.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-8aa80495" border="0">
+            <img src="https://i.ibb.co/CPFdfzG/Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-61c6fdd4.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-61c6fdd4">
+            <img src="https://i.ibb.co/vXsY4Th/Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-6cc0b26e.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-16-6cc0b26e">
+            <img src="https://i.ibb.co/Ks5rzcc/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-21617a2d.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-21617a2d">
+            <img src="https://i.ibb.co/vq1Qhjq/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-8aa80495.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-8aa80495">
         </div>
         <div class="images-row">
-            <img src="https://i.ibb.co/hBmFsVF/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-69fc2956.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-69fc2956" border="0">
-            <img src="https://i.ibb.co/FJnvkdt/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-d78a3d39.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-d78a3d39" border="0">
-            <img src="https://i.ibb.co/7rvxxvp/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-79ba20ce.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-79ba20ce" border="0">
-            <img src="https://i.ibb.co/vxwbV6b/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-90a88d70.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-90a88d70" border="0">
+            <img src="https://i.ibb.co/hBmFsVF/Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-69fc2956.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-08-52-17-69fc2956">
+            <img src="https://i.ibb.co/FJnvkdt/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-d78a3d39.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-d78a3d39">
+            <img src="https://i.ibb.co/7rvxxvp/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-79ba20ce.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-79ba20ce">
+            <img src="https://i.ibb.co/vxwbV6b/Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-90a88d70.jpg" alt="Imagen-de-Whats-App-2024-06-13-a-las-10-23-14-90a88d70">
         </div>
     </div>
 </body>
